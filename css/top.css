@@ -35,10 +35,9 @@ align-items: center;
 
 header img{
 display: block;
-width:100px;
-height:100px;
+width:90px;
+height:70px;
 margin-left: 5px;
-
 }
 .slideshow {
 position: relative;
@@ -226,7 +225,7 @@ header nav ul li {
 margin-bottom: 10px;
 }
 img{
-max-width:100%;
+width:100%;
 height:auto;
 }
 .section {
@@ -248,3 +247,11 @@ text-align:center;
 margin-top:30px;
 }
 
+#google_intrusion{
+    width: 100%;
+    height: 400px;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
