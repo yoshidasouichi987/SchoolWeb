@@ -151,7 +151,7 @@ top: 8px;
 .section {
 padding: 2rem;
 margin: 1rem 0;
-background-color: #66FF99;
+background-color:rgb(204, 255, 255);
 border-radius: 8px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 display: block;
@@ -185,7 +185,7 @@ background-color:#FFFFFF;
 z-index:1;
 }
 summary{
-background-color: #66FF99;
+background-color: #44ffa1;
 width: 450px;
 }
 #first{
