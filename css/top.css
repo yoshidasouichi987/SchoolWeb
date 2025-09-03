@@ -171,7 +171,22 @@ opacity: 1;
 transform: none;
 }
 }
+#day {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
 
+#day h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+#day h4 {
+  margin: 0;
+  font-weight: normal;
+  color: #555;
+}
 #space{
 color:white;
 }
