@@ -98,22 +98,24 @@ h3, .title {
 font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-
 header {
-position:fixed;
+position: fixed;
+top: 0;
+left: 0;
 background-color: #6699FF;
 color: #fff;
-margin-right: 10px;
-text-align:center;
+text-align:left;
 display:flex;
 width:100%;
 height:70px;
 z-index:100;
+align-items: center;
 }
+
 header img{
 display: block;
-width:70px;
-height:50px;
+width:90px;
+height:70px;
 margin-left: 5px;
 }
 
