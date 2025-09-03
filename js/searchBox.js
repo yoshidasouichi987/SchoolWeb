@@ -1,13 +1,15 @@
 const searchBox = document.getElementById('searchBox');
 const detailSections = document.querySelectorAll('section details');
 
-const slides = document.querySelectorAll('.slide');
-let current = 0;
+searchBox.addEventListener('input', () => {
+  const keyword = searchBox.value.toLowerCase();
 
-function showNextSlide() {
-slides[current].classList.remove('active');
-current = (current + 1) % slides.length;
-slides[current].classList.add('active');
-}
-
-setInterval(showNextSlide, 4000);
+  detailSections.forEach(detail => {
+    const summaryText = detail.querySelector('summary').textContent.toLowerCase();
+    if (summaryText.includes(keyword)) {
+      detail.parentElement.style.display = 'block';
+    } else {
+      detail.parentElement.style.display = 'none';
+    }
+  });
+});
