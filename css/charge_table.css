@@ -129,8 +129,6 @@ text-align: left;
 color:#ffffff
 }
 
-
-
 .hamburger {
 width: 30px;
 height: 20px;
@@ -160,7 +158,7 @@ top: 0;
 right: -100%;
 width: 200px;
 height: 100%;
-background-color: #C0C0C0;
+background-color:rgb(240,240,240);
 color: #fff;
 transition: right 0.3s ease;
 padding-top: 60px;
@@ -173,15 +171,21 @@ padding: 0;
 }
 
 .nav-menu li {
-padding: 15px;
 text-align: center;
+margin:12px;
+height:43px;
+align-items:center;
+background-color:white;
+border-right:7px solid rgb(150,150,150);
+border-bottom:7px solid(200,200,200);
 }
 
 .nav-menu li a {
 display: inline-block;
 text-decoration: none;
-color: #333;
-font-size: 18px;
+color: black;
+font-size: 20px;
+font-family:monospace;
 }
 
 
@@ -203,6 +207,8 @@ opacity: 0;
 transform: rotate(-45deg);
 top: 8px;
 }
+
+
 .section {
 padding: 2rem;
 margin: 1rem 0;
